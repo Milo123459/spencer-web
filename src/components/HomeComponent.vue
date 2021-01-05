@@ -6,7 +6,7 @@
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Features</h1>
         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
       </div>
-      <p class="lg:w-1/2 w-full leading-relaxed text-black text-xl">A list of some of our customers favourite features.</p>
+      <p class="lg:w-1/2 w-full leading-relaxed text-black text-xl">A list of some of our users favourite features.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/4 md:w-1/2 p-4">
