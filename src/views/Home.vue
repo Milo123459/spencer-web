@@ -1,5 +1,5 @@
 <template>
-    <HomeComponent />
+  <HomeComponent />
 </template>
 
 <script lang="ts">
@@ -8,7 +8,7 @@ import HomeComponent from "@/components/HomeComponent.vue"; // @ is an alias to 
 
 @Options({
   components: {
-      HomeComponent
+    HomeComponent
   }
 })
 export default class Home extends Vue {}
