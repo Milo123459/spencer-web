@@ -19,10 +19,10 @@
       </div>
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-600 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../assets/economy-gif.gif" alt="content">
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="../assets/bio-gif.gif" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Info</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Bio Command</h2>
+          <p class="leading-relaxed text-base text-black">Get info on anyone from <a href="https://dsc.bio" class="transition duration-500 text-blue-500 hover:text-blue-600">dsc.bio</a> with the <code>sp!bio</code> command.</p>
         </div>
       </div>
       <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -48,13 +48,6 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-
-@Options({
-  props: {
-    msg: String
-  }
-})
-export default class HelloWorld extends Vue {
-  msg!: string;
-}
+@Options({  })
+export default class HelloWorld extends Vue{};
 </script>

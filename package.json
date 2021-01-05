@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-fetch": "^2.6.1",
     "tailwind": "^4.0.0",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@types/node-fetch": "^2.5.7",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
