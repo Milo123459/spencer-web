@@ -14,6 +14,8 @@
         class="transition duration-500 text-purple-400 hover:text-white animate-bounce pr-7"
         >About</router-link
       >
+      <a href="https://discord.com/api/oauth2/authorize?client_id=765156777607823380&permissions=8&scope=bot%20applications.commands" class="transition duration-500 text-purple-400 hover:text-white animate-bounce pr-7">
+      Invite</a>
     </div>
     <router-view />
   </body>
