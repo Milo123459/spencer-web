@@ -1,7 +1,7 @@
 <template>
   <body class="bg-gray-700">
     <div
-      class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-gray-700"
+      class="container mx-auto flex flex-wrap pt-5 flex-col md:flex-row items-center bg-gray-700"
       id="nav"
     >
       <router-link
