@@ -1,30 +1,33 @@
 <template>
-  <body class="bg-gray-700">
-    <div
-      class="container mx-auto flex flex-wrap pt-5 flex-col md:flex-row items-center bg-gray-700"
-      id="nav"
-    >
-      <router-link
-        to="/"
-        class="transition duration-500 text-purple-400 hover:text-white px-7"
-        >Home</router-link
-      >
-      <router-link
-        to="/about"
-        class="transition duration-500 text-purple-400 hover:text-white pr-7"
-        >About</router-link
-      >
-      <a href="https://discord.com/api/oauth2/authorize?client_id=765156777607823380&permissions=8&scope=bot%20applications.commands" class="transition duration-500 text-purple-400 hover:text-white pr-7">
-      Invite</a>
-      <a href="https://top.gg/bot/765156777607823380/vote" class="transition duration-500 text-purple-400 hover:text-white pr-7">Vote</a>
+<nav class="bg-gray-800">
+  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="relative flex items-center justify-between h-16">
+      <h1 class="text-purple-500">Spencer</h1>
+      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex-shrink-0 flex items-center">
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex space-x-4">
+            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Invite</a>
+            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Vote</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <router-view />
-  </body>
-  <section class="text-center bg-gray-700">
-      <a href="https://donatebot.io/checkout/784470505607528448" class="transition duration-500 ease-in-out bg-indigo-500 hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110 rounded-md tracking-widest text-black text-xl font-medium title-font">
-        <code>Donate</code>
-</a>
-<br><br><br>
+  </div>
+  </div>
 
-  </section>
+  <div class="hidden sm:hidden">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Invite</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Vote</a>
+    </div>
+  </div>
+</nav>
+
 </template>
