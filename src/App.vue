@@ -6,17 +6,17 @@
     >
       <router-link
         to="/"
-        class="transition duration-500 text-purple-400 hover:text-white animate-bounce px-7"
+        class="transition duration-500 text-purple-400 hover:text-white px-7"
         >Home</router-link
       >
       <router-link
         to="/about"
-        class="transition duration-500 text-purple-400 hover:text-white animate-bounce pr-7"
+        class="transition duration-500 text-purple-400 hover:text-white pr-7"
         >About</router-link
       >
-      <a href="https://discord.com/api/oauth2/authorize?client_id=765156777607823380&permissions=8&scope=bot%20applications.commands" class="transition duration-500 text-purple-400 hover:text-white animate-bounce pr-7">
+      <a href="https://discord.com/api/oauth2/authorize?client_id=765156777607823380&permissions=8&scope=bot%20applications.commands" class="transition duration-500 text-purple-400 hover:text-white pr-7">
       Invite</a>
-      <a href="https://top.gg/bot/765156777607823380/vote" class="transition duration-500 text-purple-400 hover:text-white animate-bounce pr-7">Vote</a>
+      <a href="https://top.gg/bot/765156777607823380/vote" class="transition duration-500 text-purple-400 hover:text-white pr-7">Vote</a>
     </div>
     <router-view />
   </body>
