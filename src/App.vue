@@ -7,8 +7,8 @@
         <div class="flex-shrink-0 flex items-center">
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
-            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-            <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <router-link to="/" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</router-link>
+            <router-link to="/about" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</router-link>
             <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
             <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Invite</a>
             <a href="#" class="trasiton duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Vote</a>
