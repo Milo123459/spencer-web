@@ -2,7 +2,7 @@
 <nav class="bg-gray-800">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
-      <h1 class="text-purple-500">Spencer</h1>
+      <h1 class="text-indigo-400">Spencer</h1>
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex-shrink-0 flex items-center">
         <div class="hidden sm:block sm:ml-6">
