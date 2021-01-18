@@ -20,10 +20,12 @@
             <h3
               class="tracking-widest text-indigo-500 text-xs font-medium title-font"
             >
-             FOUNDED
+              FOUNDED
             </h3>
             <p class="leading-relaxed text-base text-black">
-                Spencer was founded in November of 2020, in an attempt to make one bot for everything. We are still waiting on a few features though 😉. 
+              Spencer was founded in November of 2020, in an attempt to make one
+              bot for everything. We are still waiting on a few features though
+              😉.
             </p>
           </div>
         </div>
@@ -35,7 +37,10 @@
               FAST
             </h3>
             <p class="leading-relaxed text-base text-black">
-                Spencer is fast, very fast, extremely fast, fast fast. Did we say fast? We mean very fast. You get the idea, we are constantly trying to improve Spencer with performance upgrades, not to mention all the new features though!
+              Spencer is fast, very fast, extremely fast, fast fast. Did we say
+              fast? We mean very fast. You get the idea, we are constantly
+              trying to improve Spencer with performance upgrades, not to
+              mention all the new features though!
             </p>
           </div>
         </div>
@@ -43,7 +48,6 @@
     </div>
   </section>
 </template>
-
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";

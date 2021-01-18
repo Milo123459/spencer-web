@@ -1,6 +1,6 @@
 <template>
   <HomeComponent />
-  <p> hi! </p>
+  <p>hi!</p>
 </template>
 
 <script lang="ts">
