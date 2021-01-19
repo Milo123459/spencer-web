@@ -10,7 +10,7 @@ import { useHead } from '@vueuse/head';
 @Options({
   components: {
     HomeComponent,
-  },
+  },  
   setup() {
       useHead(() => ({
       title: `Spencer: Home`,
@@ -20,6 +20,7 @@ import { useHead } from '@vueuse/head';
           content: `hey`,
         },
       ],
+      
     }))
   }
 })

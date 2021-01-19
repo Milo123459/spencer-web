@@ -3,8 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-        maxHeight: {
-            'auto': 'max-content'
+        colors: {
+            blurple: {
+                DEFAULT: '#7289DA'
+            }
         }
     },
   },
