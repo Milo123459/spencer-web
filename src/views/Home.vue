@@ -9,8 +9,8 @@ import HomeComponent from "@/components/HomeComponent.vue"; // @ is an alias to 
 
 @Options({
   components: {
-    HomeComponent
-  }
+    HomeComponent,
+  },
 })
 export default class Home extends Vue {}
 </script>

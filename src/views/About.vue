@@ -8,8 +8,8 @@ import AboutComponent from "@/components/AboutComponent.vue"; // @ is an alias t
 
 @Options({
   components: {
-    AboutComponent
-  }
+    AboutComponent,
+  },
 })
 export default class Home extends Vue {}
 </script>
