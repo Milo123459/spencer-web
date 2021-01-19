@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
-    "@types/node-fetch": "^2.5.7",
+    "@types/node-fetch": "^2.5.8",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-babel": "~4.5.10",
     "@vue/cli-plugin-eslint": "~4.5.10",
     "@vue/cli-plugin-pwa": "~4.5.10",
     "@vue/cli-plugin-router": "~4.5.0",
