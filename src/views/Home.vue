@@ -16,9 +16,21 @@ import { useHead } from '@vueuse/head';
       title: `Spencer: Home`,
       meta: [
         {
-          name: `description`,
-          content: `hey`,
+          name: `og:url`,
+          content: `https://spencer-one.vercel.app`,
         },
+        {
+            name: 'og:type',
+            content: 'website'
+        },
+        {
+            name: 'og:title',
+            content: 'spencer-web'
+        },
+        {
+            name: 'og:description',
+            content: 'Spencer is a new discord bot packed with features.'
+        }
       ],
       
     }))
