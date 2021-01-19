@@ -21,7 +21,7 @@
                 <router-link
                   to="/blog"
                   class="transition duration-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >About</router-link
+                  >Blog</router-link
                 >
                 <a
                   href="https://discord.com/oauth2/authorize?client_id=765156777607823380&permissions=8&scope=bot%20applications.commands"
