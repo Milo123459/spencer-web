@@ -1,5 +1,4 @@
 <template>
-  <p class="text-black">hi</p>
 </template>
 
 <script lang="ts">
