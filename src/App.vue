@@ -2,11 +2,11 @@
   <nav class="bg-gray-800">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
-           <router-link
-                  to="/"
-                  class="transition duration-500 text-indigo-400 hover:text-blurple px-3 py-2 rounded-md text-sm font-medium"
-                  >Spencer</router-link
-                >
+        <router-link
+          to="/"
+          class="transition duration-500 text-indigo-400 hover:text-blurple px-3 py-2 rounded-md text-sm font-medium"
+          >Spencer</router-link
+        >
         <div
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         >
@@ -41,6 +41,6 @@
     </div>
   </nav>
   <div class="max-w-max justify-center bg-gray-800 max-h-auto">
-      <router-view></router-view>
-    </div>
+    <router-view></router-view>
+  </div>
 </template>
