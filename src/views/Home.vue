@@ -11,6 +11,9 @@ import { useHead } from "@vueuse/head";
   components: {
     HomeComponent,
   },
+})
+export default class Home extends Vue {
+    
   setup() {
     useHead(() => ({
       title: `Spencer: Home`,
@@ -33,7 +36,6 @@ import { useHead } from "@vueuse/head";
         },
       ],
     }));
-  },
-})
-export default class Home extends Vue {}
+  }
+}
 </script>

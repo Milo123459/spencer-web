@@ -40,7 +40,7 @@
       </div>
     </div>
   </nav>
-  <div class="max-w-max justify-center bg-gray-800 max-h-auto">
+  <div class="max-w-max justify-center bg-gray-800 max-h-auto bg-auto">
     <router-view></router-view>
   </div>
 </template>
