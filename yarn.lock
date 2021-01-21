@@ -1601,10 +1601,10 @@
   resolved "https://registry.yarnpkg.com/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
-"@vueuse/head@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.2.2.tgz#2c6d82be42876beb3c9a22e4ef502d937a3b06b0"
-  integrity sha512-Dm9Vem9QaeAp9nyHq9VHutLv9TM23JLqHCpcoeryzO9eQ8ZFR+MF6+a3+PjdMNBsFH0Qgs7JFIh1wSvlAG9YIw==
+"@vueuse/head@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.2.3.tgz#55d38648a26c3132f2320f71236cd03148a6187d"
+  integrity sha512-bAFZyUlT6+CVIwMcUw3TrtuhG/BfjS+UV5T8oH30tGPnVvqIsNuRCnNt9EbVd1GxHRDZD0K41515B5NiXPt84A==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
